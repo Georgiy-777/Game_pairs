@@ -86,13 +86,13 @@ starrBtn[0].addEventListener('click', (event) => {
     } else {
         newGame(4, 4)
     }
-    if ((document.getElementsByClassName('success')).length == cardNumArray.length) {
-        // starrBtn[1].style.display = 'block'
-        // document.getElementById('game').innerHTML = ''
-        // cardNumArray = []
-        // cardsArray = []
-        // firstCard = null
-        // secondCard = null
+    if ((document.querySelectorAll('.card.success')).length == cardNumArray.length) {
+        starrBtn[1].style.display = 'block'
+        document.getElementById('game').innerHTML = ''
+        cardNumArray = []
+        cardsArray = []
+        firstCard = null
+        secondCard = null
         // finushGame()
     }
 })
