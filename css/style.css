@@ -58,7 +58,7 @@ body {
     height: 65%;
     background-color: rgb(65, 33, 91);
     color: transparent;
-    font-style: 42px;
+
     font-weight: bold;
     transition: background-color .15s, color .2s;
     border-radius: 10%;
@@ -139,7 +139,7 @@ body {
     border-radius: 10px;
     border: 2px solid #fff;
     /* opacity: 0.95; */
-    transition: display .5 ease-out;
+    transition: display .5s ease-out;
 }
 
 .again:hover {
@@ -154,7 +154,9 @@ body {
 .primary {
     color: #16D9E3;
 }
-
+/*.clock-block{*/
+/*    height: 50px ;*/
+/*}*/
 .game {
     padding: 20px;
     align-items: start;
